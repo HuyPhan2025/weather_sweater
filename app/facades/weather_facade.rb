@@ -64,11 +64,15 @@ class WeatherFacade
         icon: hour[:condition][:icon]
       }
     end    
-
   end
 
   def washington_weather_salaries
-
+    washington_weather_salaries = {
+      destination: MapQuestService.city_data[:results].first[:providedLocation][:location],
+      forecast: city_weather_current,
+      salaries: washington_salaries 
+    }
+    Salaries.new(washington_weather_salaries)
   end
 
   def washington_salaries 
@@ -89,6 +93,4 @@ class WeatherFacade
     end
     salaries_info
   end
-
-  
 end

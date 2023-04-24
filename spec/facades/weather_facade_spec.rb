@@ -10,6 +10,10 @@ RSpec.describe WeatherFacade do
       washington_salaries = File.read('spec/fixtures/washington_salaries.json')
       stub_request(:get, "https://api.teleport.org/api/urban_areas/slug:washington-dc/salaries")
       .to_return(status: 200, body: washington_salaries, headers: {})
+
+      city_info = File.read('spec/fixtures/washington_city.json')
+      stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=KEY&location=Washington,DC")
+        .to_return(status: 200, body: city_info)
   end
 
   it "exists" do
@@ -49,8 +53,14 @@ RSpec.describe WeatherFacade do
 
   it "returns washington salaries" do
     weather_facade = WeatherFacade.new
-    binding.pry
+
     expect(weather_facade.washington_salaries).to be_a(Array)
     expect(weather_facade.washington_salaries.first.keys).to eq([:title, :min, :max])
+  end
+
+  it "returns current weather and salaries information" do
+    weather_facade = WeatherFacade.new
+
+    expect(weather_facade.washington_weather_salaries).to be_a(Salaries)
   end
 end
