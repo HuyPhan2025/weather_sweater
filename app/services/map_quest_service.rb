@@ -1,7 +1,7 @@
 class MapQuestService
 
-  def self.city_data
-    response = conn.get("geocoding/v1/address?key=KEY&location=Washington,DC")
+  def self.city_data(location)
+    response = conn.get("geocoding/v1/address?key=KEY&location=#{location}")
     JSON.parse(response.body, symbolize_names: true)
   end
 

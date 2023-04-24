@@ -1,16 +1,27 @@
 class WeatherFacade
 
-  def all_weather_info
+  def lat_lng_info(location)
+    # lat = MapQuestService.city_data[:results][0][:locations][0][:latLng][:lat].to_s
+    # lng = MapQuestService.city_data[:results][0][:locations][0][:latLng][:lng].to_s
+    city = MapQuestService.city_data(location)
+    lat = city[:results].last[:locations].first[:latLng][:lat].to_s
+    lng = city[:results].last[:locations].first[:latLng][:lng].to_s
+    lat + "," + lng 
+  end
+
+  def all_weather_info(location)
+    lat_lng = lat_lng_info(location)
+
     all_weather_info = {
-      current_weather: city_weather_current,
-      daily_weather: city_weather_daily,
-      hourly_weather: city_weather_hourly,
+      current_weather: city_weather_current(lat_lng),
+      daily_weather: city_weather_daily(lat_lng),
+      hourly_weather: city_weather_hourly(lat_lng),
     }
     Forecast.new(all_weather_info)
   end
 
-  def city_weather_current
-    current_weather = WeatherService.weather_datas
+  def city_weather_current(lat_lng)
+    current_weather = WeatherService.weather_datas(lat_lng)
 
     hash = current_weather[:current]
     data = {
@@ -25,8 +36,8 @@ class WeatherFacade
     }
   end
 
-  def city_weather_daily
-    daily_weather = WeatherService.weather_datas
+  def city_weather_daily(lat_lng)
+    daily_weather = WeatherService.weather_datas(lat_lng)
 
     array = daily_weather[:forecast][:forecastday].map do |weather|
       weather
@@ -45,8 +56,8 @@ class WeatherFacade
     end
   end
 
-  def city_weather_hourly
-    hourly_weather = WeatherService.weather_datas
+  def city_weather_hourly(lat_lng)
+    hourly_weather = WeatherService.weather_datas(lat_lng)
 
     array = hourly_weather[:forecast][:forecastday].map do |weather|
       weather

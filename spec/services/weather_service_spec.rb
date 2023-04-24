@@ -9,7 +9,7 @@ RSpec.describe WeatherService do
   end
   
   it "return a json object" do
-    weather_info = WeatherService.weather_datas
+    weather_info = WeatherService.weather_datas("38.89037,-77.03196")
 
     expect(weather_info).to be_a(Hash)
     expect(weather_info.keys).to eq([:location, :current, :forecast])
