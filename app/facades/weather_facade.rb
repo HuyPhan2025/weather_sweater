@@ -1,4 +1,14 @@
 class WeatherFacade
+
+  def all_weather_info
+    all_weather_info = {
+      current_weather: city_weather_current,
+      daily_weather: city_weather_daily,
+      hourly_weather: city_weather_hourly,
+    }
+    Forecast.new(all_weather_info)
+  end
+
   def city_weather_current
     current_weather = WeatherService.weather_datas
 

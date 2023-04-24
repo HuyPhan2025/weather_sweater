@@ -5,12 +5,6 @@ class WeatherService
     end
   end
 
-  # def self.get_url(url)
-  #   response = conn.get(url)
-  #   binding.pry
-  #   JSON.parse(response.body, symbolize_keys: true)
-  # end
-
   def self.weather_datas
     response = conn.get("/v1/forecast.json?") do |faraday|
       faraday.params["latLng"] = "38.89037,-77.03196"
