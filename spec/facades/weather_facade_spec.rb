@@ -4,7 +4,7 @@ require './app/facades/weather_facade'
 RSpec.describe WeatherFacade do
   before do
     weather_info = File.read('spec/fixtures/washington_weather.json')
-    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?key=2d9220dbffaf416fa1725207232204&latLng=38.89037,-77.03196&limit=5")
+    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?key=#{ENV['WEATHER_API_KEY']}&latLng=38.89037,-77.03196&limit=5")
       .to_return(status: 200, body: weather_info, headers: {})
   end
 
@@ -32,5 +32,14 @@ RSpec.describe WeatherFacade do
     weather_facade = WeatherFacade.new
     expect(weather_facade.city_weather_hourly).to be_an(Array)
     expect(weather_facade.city_weather_hourly.first.keys).to eq([:time, :temperature, :condition, :icon]) 
+  end
+
+  it "returns all weather info" do
+    weather_facade = WeatherFacade.new
+
+    expect(weather_facade.all_weather_info).to be_a(Forecast)
+    expect(weather_facade.all_weather_info.current_weather).to be_a(Hash)
+    expect(weather_facade.all_weather_info.daily_weather).to be_an(Array)
+    expect(weather_facade.all_weather_info.hourly_weather).to be_an(Array)
   end
 end
