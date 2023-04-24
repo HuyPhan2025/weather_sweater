@@ -7,6 +7,7 @@ RSpec.describe WeatherService do
       .to_return(status: 200, body: weather_info, headers: {})
 
   end
+  
   it "return a json object" do
     weather_info = WeatherService.weather_datas
 
