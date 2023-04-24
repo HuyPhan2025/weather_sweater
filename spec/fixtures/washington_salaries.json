@@ -1,0 +1,613 @@
+{
+  "_links": {
+      "curies": [
+          {
+              "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+              "name": "location",
+              "templated": true
+          },
+          {
+              "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+              "name": "city",
+              "templated": true
+          },
+          {
+              "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+              "name": "ua",
+              "templated": true
+          },
+          {
+              "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+              "name": "country",
+              "templated": true
+          },
+          {
+              "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+              "name": "a1",
+              "templated": true
+          },
+          {
+              "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+              "name": "tz",
+              "templated": true
+          }
+      ],
+      "self": {
+          "href": "https://api.teleport.org/api/urban_areas/slug:washington-dc/salaries/"
+      }
+  },
+  "salaries": [
+      {
+          "job": {
+              "id": "ACCOUNT-MANAGER",
+              "title": "Account Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 56663.363391478364,
+              "percentile_50": 70943.23262596269,
+              "percentile_75": 88821.80573450329
+          }
+      },
+      {
+          "job": {
+              "id": "ACCOUNTANT",
+              "title": "Accountant"
+          },
+          "salary_percentiles": {
+              "percentile_25": 50491.480963260234,
+              "percentile_50": 59964.280269494055,
+              "percentile_75": 71214.28881943134
+          }
+      },
+      {
+          "job": {
+              "id": "ADMINISTRATIVE-ASSISTANT",
+              "title": "Administrative Assistant"
+          },
+          "salary_percentiles": {
+              "percentile_25": 32653.169736267155,
+              "percentile_50": 39324.16036011757,
+              "percentile_75": 47358.02375445043
+          }
+      },
+      {
+          "job": {
+              "id": "ARCHITECT",
+              "title": "Architect"
+          },
+          "salary_percentiles": {
+              "percentile_25": 52362.75129164718,
+              "percentile_50": 64839.25474736292,
+              "percentile_75": 80288.5419976788
+          }
+      },
+      {
+          "job": {
+              "id": "ATTORNEY",
+              "title": "Attorney"
+          },
+          "salary_percentiles": {
+              "percentile_25": 84517.97328728026,
+              "percentile_50": 114135.43101182135,
+              "percentile_75": 154131.6728925248
+          }
+      },
+      {
+          "job": {
+              "id": "BUSINESS-ANALYST",
+              "title": "Business Analyst"
+          },
+          "salary_percentiles": {
+              "percentile_25": 56712.11973817486,
+              "percentile_50": 68030.9884006083,
+              "percentile_75": 81608.92952213691
+          }
+      },
+      {
+          "job": {
+              "id": "BUSINESS-DEVELOPMENT",
+              "title": "Business Development"
+          },
+          "salary_percentiles": {
+              "percentile_25": 64319.506710063484,
+              "percentile_50": 85214.03756012635,
+              "percentile_75": 112896.26691372767
+          }
+      },
+      {
+          "job": {
+              "id": "C-LEVEL-EXECUTIVE",
+              "title": "C Level Executive"
+          },
+          "salary_percentiles": {
+              "percentile_25": 113224.23074482982,
+              "percentile_50": 169752.04555186332,
+              "percentile_75": 254501.68024531004
+          }
+      },
+      {
+          "job": {
+              "id": "CASHIER",
+              "title": "Cashier"
+          },
+          "salary_percentiles": {
+              "percentile_25": 23204.913002403086,
+              "percentile_50": 32508.91896538426,
+              "percentile_75": 45543.364553380394
+          }
+      },
+      {
+          "job": {
+              "id": "CHEF",
+              "title": "Chef"
+          },
+          "salary_percentiles": {
+              "percentile_25": 39752.4703654369,
+              "percentile_50": 48826.8806013981,
+              "percentile_75": 59972.73244522759
+          }
+      },
+      {
+          "job": {
+              "id": "CHEMICAL-ENGINEER",
+              "title": "Chemical Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 76842.40508946708,
+              "percentile_50": 93112.86281914146,
+              "percentile_75": 112828.39484633294
+          }
+      },
+      {
+          "job": {
+              "id": "CIVIL-ENGINEER",
+              "title": "Civil Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 61038.05752204421,
+              "percentile_50": 72767.09601855808,
+              "percentile_75": 86749.97989675074
+          }
+      },
+      {
+          "job": {
+              "id": "CONTENT-MARKETING",
+              "title": "Content Marketing"
+          },
+          "salary_percentiles": {
+              "percentile_25": 49159.144071383496,
+              "percentile_50": 61549.78242173982,
+              "percentile_75": 77063.50034619095
+          }
+      },
+      {
+          "job": {
+              "id": "COPYWRITER",
+              "title": "Copywriter"
+          },
+          "salary_percentiles": {
+              "percentile_25": 51374.095651427684,
+              "percentile_50": 63171.857955278996,
+              "percentile_75": 77678.9077631393
+          }
+      },
+      {
+          "job": {
+              "id": "CUSTOMER-SUPPORT",
+              "title": "Customer Support"
+          },
+          "salary_percentiles": {
+              "percentile_25": 32165.589644830216,
+              "percentile_50": 41354.42819075492,
+              "percentile_75": 53168.269255066305
+          }
+      },
+      {
+          "job": {
+              "id": "DATA-ANALYST",
+              "title": "Data Analyst"
+          },
+          "salary_percentiles": {
+              "percentile_25": 50471.381278938534,
+              "percentile_50": 60742.87964266444,
+              "percentile_75": 73104.74438754683
+          }
+      },
+      {
+          "job": {
+              "id": "DATA-SCIENTIST",
+              "title": "Data Scientist"
+          },
+          "salary_percentiles": {
+              "percentile_25": 78347.83022761735,
+              "percentile_50": 94645.29692975819,
+              "percentile_75": 114332.86926897595
+          }
+      },
+      {
+          "job": {
+              "id": "DENTIST",
+              "title": "Dentist"
+          },
+          "salary_percentiles": {
+              "percentile_25": 122747.31669546526,
+              "percentile_50": 159858.88224667698,
+              "percentile_75": 208190.80140511965
+          }
+      },
+      {
+          "job": {
+              "id": "ELECTRICAL-ENGINEER",
+              "title": "Electrical Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 72351.86321207212,
+              "percentile_50": 86259.23188291588,
+              "percentile_75": 102839.85449305135
+          }
+      },
+      {
+          "job": {
+              "id": "EXECUTIVE-ASSISTANT",
+              "title": "Executive Assistant"
+          },
+          "salary_percentiles": {
+              "percentile_25": 44569.46780208606,
+              "percentile_50": 53906.901687036756,
+              "percentile_75": 65200.555285962706
+          }
+      },
+      {
+          "job": {
+              "id": "FASHION-DESIGNER",
+              "title": "Fashion Designer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 32442.166432476646,
+              "percentile_50": 41880.17166837197,
+              "percentile_75": 54063.86107484158
+          }
+      },
+      {
+          "job": {
+              "id": "FINANCE-MANAGER",
+              "title": "Finance Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 71146.54647431338,
+              "percentile_50": 89872.8592196018,
+              "percentile_75": 113528.08006250196
+          }
+      },
+      {
+          "job": {
+              "id": "FINANCIAL-ANALYST",
+              "title": "Financial Analyst"
+          },
+          "salary_percentiles": {
+              "percentile_25": 57230.866270892526,
+              "percentile_50": 66604.78789811558,
+              "percentile_75": 77514.07693105638
+          }
+      },
+      {
+          "job": {
+              "id": "GRAPHIC-DESIGNER",
+              "title": "Graphic Designer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 41688.488868881366,
+              "percentile_50": 49640.47336604788,
+              "percentile_75": 59109.28083182955
+          }
+      },
+      {
+          "job": {
+              "id": "HARDWARE-ENGINEER",
+              "title": "Hardware Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 65835.92247958684,
+              "percentile_50": 79987.49900577302,
+              "percentile_75": 97180.98807201054
+          }
+      },
+      {
+          "job": {
+              "id": "HUMAN-RESOURCES-MANAGER",
+              "title": "Human Resources Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 65243.635415043165,
+              "percentile_50": 79672.03299727192,
+              "percentile_75": 97291.21931263225
+          }
+      },
+      {
+          "job": {
+              "id": "IT-MANAGER",
+              "title": "IT Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 84712.78237357875,
+              "percentile_50": 103805.06824542789,
+              "percentile_75": 127200.3101718299
+          }
+      },
+      {
+          "job": {
+              "id": "INDUSTRIAL-DESIGNER",
+              "title": "Industrial Designer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 46388.20961574684,
+              "percentile_50": 56984.921514647474,
+              "percentile_75": 70002.29814707524
+          }
+      },
+      {
+          "job": {
+              "id": "INTERIOR-DESIGNER",
+              "title": "Interior Designer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 47161.61495561862,
+              "percentile_50": 56906.32367835145,
+              "percentile_75": 68664.52045021633
+          }
+      },
+      {
+          "job": {
+              "id": "LECTURER",
+              "title": "Lecturer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 72911.13775628142,
+              "percentile_50": 89844.45834523776,
+              "percentile_75": 110710.47502140705
+          }
+      },
+      {
+          "job": {
+              "id": "MARKETING-MANAGER",
+              "title": "Marketing Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 51486.644341059655,
+              "percentile_50": 64668.51808942242,
+              "percentile_75": 81225.28250587254
+          }
+      },
+      {
+          "job": {
+              "id": "MECHANICAL-ENGINEER",
+              "title": "Mechanical Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 72619.2808821517,
+              "percentile_50": 85143.45598693441,
+              "percentile_75": 99827.59412288244
+          }
+      },
+      {
+          "job": {
+              "id": "MOBILE-DEVELOPER",
+              "title": "Mobile Developer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 72275.6589397435,
+              "percentile_50": 90393.92644969701,
+              "percentile_75": 113054.13273098593
+          }
+      },
+      {
+          "job": {
+              "id": "NURSE",
+              "title": "Nurse"
+          },
+          "salary_percentiles": {
+              "percentile_25": 69775.1064898605,
+              "percentile_50": 77622.83730788292,
+              "percentile_75": 86353.2164239927
+          }
+      },
+      {
+          "job": {
+              "id": "OFFICE-MANAGER",
+              "title": "Office Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 41355.615899064665,
+              "percentile_50": 50560.139359280525,
+              "percentile_75": 61813.31450289642
+          }
+      },
+      {
+          "job": {
+              "id": "OPERATIONS-MANAGER",
+              "title": "Operations Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 54207.753667348945,
+              "percentile_50": 69086.56038145279,
+              "percentile_75": 88049.2642183589
+          }
+      },
+      {
+          "job": {
+              "id": "PHARMACIST",
+              "title": "Pharmacist"
+          },
+          "salary_percentiles": {
+              "percentile_25": 94472.47605241014,
+              "percentile_50": 105244.23766919838,
+              "percentile_75": 117244.19667402313
+          }
+      },
+      {
+          "job": {
+              "id": "PHYSICIAN",
+              "title": "Physician"
+          },
+          "salary_percentiles": {
+              "percentile_25": 105835.79357598467,
+              "percentile_50": 144197.17169080194,
+              "percentile_75": 196463.06434787047
+          }
+      },
+      {
+          "job": {
+              "id": "POSTDOCTORAL-RESEARCHER",
+              "title": "Postdoctoral Researcher"
+          },
+          "salary_percentiles": {
+              "percentile_25": 50013.99747915388,
+              "percentile_50": 56564.306615468624,
+              "percentile_75": 63972.506581229114
+          }
+      },
+      {
+          "job": {
+              "id": "PRODUCT-MANAGER",
+              "title": "Product Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 75065.83015028333,
+              "percentile_50": 92246.915076031,
+              "percentile_75": 113360.4107755592
+          }
+      },
+      {
+          "job": {
+              "id": "PROJECT-MANAGER",
+              "title": "Project Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 65496.52145347835,
+              "percentile_50": 80958.7134647462,
+              "percentile_75": 100071.16623013868
+          }
+      },
+      {
+          "job": {
+              "id": "QA-ENGINEER",
+              "title": "QA Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 57179.87346263051,
+              "percentile_50": 70486.98669515568,
+              "percentile_75": 86890.98090799598
+          }
+      },
+      {
+          "job": {
+              "id": "RECEPTIONIST",
+              "title": "Receptionist"
+          },
+          "salary_percentiles": {
+              "percentile_25": 22241.411332985954,
+              "percentile_50": 26938.061995486536,
+              "percentile_75": 32626.48998341486
+          }
+      },
+      {
+          "job": {
+              "id": "RESEARCH-SCIENTIST",
+              "title": "Research Scientist"
+          },
+          "salary_percentiles": {
+              "percentile_25": 64601.716452650406,
+              "percentile_50": 82794.80492351278,
+              "percentile_75": 106111.41775693947
+          }
+      },
+      {
+          "job": {
+              "id": "SALES-MANAGER",
+              "title": "Sales Manager"
+          },
+          "salary_percentiles": {
+              "percentile_25": 62723.70473367223,
+              "percentile_50": 82899.7616965144,
+              "percentile_75": 109565.76175656845
+          }
+      },
+      {
+          "job": {
+              "id": "SOFTWARE-ENGINEER",
+              "title": "Software Engineer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 70151.6410523989,
+              "percentile_50": 85504.86022656172,
+              "percentile_75": 104218.24796518922
+          }
+      },
+      {
+          "job": {
+              "id": "SYSTEMS-ADMINISTRATOR",
+              "title": "Systems Administrator"
+          },
+          "salary_percentiles": {
+              "percentile_25": 59278.2227567024,
+              "percentile_50": 71342.21515931968,
+              "percentile_75": 85861.40790233434
+          }
+      },
+      {
+          "job": {
+              "id": "TEACHER",
+              "title": "Teacher"
+          },
+          "salary_percentiles": {
+              "percentile_25": 43959.46297148461,
+              "percentile_50": 54368.96561369255,
+              "percentile_75": 67243.41523053535
+          }
+      },
+      {
+          "job": {
+              "id": "UX-DESIGNER",
+              "title": "UX Designer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 62359.3498667332,
+              "percentile_50": 76461.72711406738,
+              "percentile_75": 93753.31407014844
+          }
+      },
+      {
+          "job": {
+              "id": "WAITER",
+              "title": "Waiter"
+          },
+          "salary_percentiles": {
+              "percentile_25": 18138.166508694096,
+              "percentile_50": 27763.261192477807,
+              "percentile_75": 42495.95303209287
+          }
+      },
+      {
+          "job": {
+              "id": "WEB-DESIGNER",
+              "title": "Web Designer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 48264.963452689786,
+              "percentile_50": 59057.98876479335,
+              "percentile_75": 72264.55356920157
+          }
+      },
+      {
+          "job": {
+              "id": "WEB-DEVELOPER",
+              "title": "Web Developer"
+          },
+          "salary_percentiles": {
+              "percentile_25": 60168.97304937017,
+              "percentile_50": 74555.47950357774,
+              "percentile_75": 92381.82475621601
+          }
+      }
+  ]
+}

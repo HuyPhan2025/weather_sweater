@@ -64,5 +64,31 @@ class WeatherFacade
         icon: hour[:condition][:icon]
       }
     end    
+
   end
+
+  def washington_weather_salaries
+
+  end
+
+  def washington_salaries 
+    jobs = ['Data Analyst', 'Data Scientist', 'Mobile Developer', 'QA Engineer', 'Sofware Engineer', 'Systems Administrator', 'Web Developer']
+    salaries_info = []
+    salaries = TeleportService.washington_salaries
+    jobs.each do |job|
+      salaries[:salaries].map do |salary|
+        
+        if job == salary[:job][:title]
+          salaries_info << {
+            title: salary[:job][:title],
+            min: salary[:salary_percentiles][:percentile_25],
+            max: salary[:salary_percentiles][:percentile_75]
+          }
+        end
+      end
+    end
+    salaries_info
+  end
+
+  
 end
