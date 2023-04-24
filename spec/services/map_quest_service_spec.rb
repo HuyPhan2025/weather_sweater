@@ -5,6 +5,7 @@ RSpec.describe MapQuestService do
     city_info = File.read('spec/fixtures/washington_city.json')
     stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=KEY&location=Washington,DC")
       .to_return(status: 200, body: city_info)
+      
   end
 
   it "return a json object" do

@@ -69,7 +69,7 @@ class WeatherFacade
   def washington_weather_salaries
     washington_weather_salaries = {
       destination: MapQuestService.city_data[:results].first[:providedLocation][:location],
-      forecast: city_weather_current,
+      forecast: modify_current_weather,
       salaries: washington_salaries 
     }
     Salaries.new(washington_weather_salaries)
@@ -78,7 +78,9 @@ class WeatherFacade
   def washington_salaries 
     jobs = ['Data Analyst', 'Data Scientist', 'Mobile Developer', 'QA Engineer', 'Sofware Engineer', 'Systems Administrator', 'Web Developer']
     salaries_info = []
+
     salaries = TeleportService.washington_salaries
+
     jobs.each do |job|
       salaries[:salaries].map do |salary|
         
@@ -92,5 +94,15 @@ class WeatherFacade
       end
     end
     salaries_info
+  end
+
+  def modify_current_weather
+    current_weather = WeatherService.weather_datas
+
+    hash = current_weather[:current]
+    data = {
+      summary: hash[:condition][:text],
+      temperature: hash[:temp_f]
+    }
   end
 end
