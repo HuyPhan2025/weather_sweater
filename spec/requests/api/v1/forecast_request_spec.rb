@@ -8,8 +8,8 @@ RSpec.describe 'Forecast Controller' do
          .to_return(status: 200, body: weather_info, headers: {})
 
       city_info = File.read('spec/fixtures/washington_city.json')
-      stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=KEY&location=Washington,DC")
-        .to_return(status: 200, body: city_info)
+      stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{ENV["MAP_QUEST_API_KEY"]}&location=Washington,DC")
+        .to_return(status: 200, body: city_info, headers: {})
     end
 
     it "returns current, hourly, and daily forecast" do

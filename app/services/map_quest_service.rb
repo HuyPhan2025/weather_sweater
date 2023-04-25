@@ -1,7 +1,9 @@
 class MapQuestService
 
   def self.city_data(location)
-    response = conn.get("geocoding/v1/address?key=KEY&location=#{location}")
+    response = conn.get("geocoding/v1/address") do |faraday|
+      faraday.params["location"] = location
+    end
     JSON.parse(response.body, symbolize_names: true)
   end
 

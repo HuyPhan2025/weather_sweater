@@ -8,8 +8,8 @@ RSpec.describe WeatherFacade do
       .to_return(status: 200, body: weather_info, headers: {})
 
     city_info = File.read('spec/fixtures/washington_city.json')
-    stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=KEY&location=38.89037,-77.03196")
-      .to_return(status: 200, body: city_info)
+    stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{ENV["MAP_QUEST_API_KEY"]}&location=Washington,DC")
+        .to_return(status: 200, body: city_info, headers: {})
   end
 
   it "exists" do
@@ -41,9 +41,9 @@ RSpec.describe WeatherFacade do
   it "returns all weather info" do
     weather_facade = WeatherFacade.new
 
-    expect(weather_facade.all_weather_info("38.89037,-77.03196")).to be_a(Forecast)
-    expect(weather_facade.all_weather_info("38.89037,-77.03196").current_weather).to be_a(Hash)
-    expect(weather_facade.all_weather_info("38.89037,-77.03196").daily_weather).to be_an(Array)
-    expect(weather_facade.all_weather_info("38.89037,-77.03196").hourly_weather).to be_an(Array)
+    expect(weather_facade.all_weather_info("Washington,DC")).to be_a(Forecast)
+    expect(weather_facade.all_weather_info("Washington,DC").current_weather).to be_a(Hash)
+    expect(weather_facade.all_weather_info("Washington,DC").daily_weather).to be_an(Array)
+    expect(weather_facade.all_weather_info("Washington,DC").hourly_weather).to be_an(Array)
   end
 end
