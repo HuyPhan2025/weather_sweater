@@ -23,20 +23,17 @@ RSpec.describe 'Forecast Controller' do
       expect(response).to be_successful
   
       parsed_data = JSON.parse(response.body, symbolize_names: true)
-
+     
       expect(parsed_data).to be_a(Hash)
-      expect(parsed_data.keys).to eq([:data])
-      expect(parsed_data[:data][:attributes]).to be_a(Hash)
-      expect(parsed_data[:data][:attributes].keys).to eq([:current_weather, :daily_weather, :hourly_weather])
+      expect(parsed_data.keys).to eq([:id, :current_weather, :daily_weather, :hourly_weather])
+      expect(parsed_data[:current_weather]).to be_a(Hash)
 
-      expect(parsed_data[:data][:attributes][:current_weather]).to be_a(Hash)
-      expect(parsed_data[:data][:attributes][:current_weather].keys).to eq([:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition, :icon])
+      expect(parsed_data[:current_weather].keys).to eq([:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition, :icon])
+      expect(parsed_data[:daily_weather]).to be_an(Array)
+      expect(parsed_data[:daily_weather][0].keys).to eq([:date, :sunrise, :sunset, :max_temp, :min_temp, :condition, :icon])
 
-      expect(parsed_data[:data][:attributes][:daily_weather]).to be_an(Array)
-      expect(parsed_data[:data][:attributes][:daily_weather][0].keys).to eq([:date, :sunrise, :sunset, :max_temp, :min_temp, :condition, :icon])
-
-      expect(parsed_data[:data][:attributes][:hourly_weather]).to be_an(Array)
-      expect(parsed_data[:data][:attributes][:hourly_weather][0].keys).to eq([:time, :temperature, :condition, :icon])
+      expect(parsed_data[:hourly_weather]).to be_an(Array)
+      expect(parsed_data[:hourly_weather][0].keys).to eq([:time, :temperature, :condition, :icon])
     end
 
     it "return an error if city is not found" do

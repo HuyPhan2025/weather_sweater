@@ -3,4 +3,6 @@ class User < ApplicationRecord
   validates :password, presence: true, confirmation: true
 
   has_secure_password
+
+  
 end
