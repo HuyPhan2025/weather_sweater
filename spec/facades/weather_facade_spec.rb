@@ -4,7 +4,7 @@ require './app/facades/weather_facade'
 RSpec.describe WeatherFacade do
   before do
     weather_info = File.read('spec/fixtures/washington_weather.json')
-    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?key=#{ENV['WEATHER_API_KEY']}&latLng=38.89037,-77.03196&limit=5")
+    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?key=#{ENV['WEATHER_API_KEY']}&q=38.89037,-77.03196&limit=5")
       .to_return(status: 200, body: weather_info, headers: {})
 
     city_info = File.read('spec/fixtures/washington_city.json')

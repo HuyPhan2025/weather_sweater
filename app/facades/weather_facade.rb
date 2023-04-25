@@ -4,11 +4,11 @@ class WeatherFacade
     city = MapQuestService.city_data(location)
     lat = city[:results].last[:locations].first[:latLng][:lat].to_s
     lng = city[:results].last[:locations].first[:latLng][:lng].to_s
+
     lat + "," + lng 
   end
 
   def all_weather_info(location)
-
     lat_lng = lat_lng_info(location)
 
     all_weather_info = {
