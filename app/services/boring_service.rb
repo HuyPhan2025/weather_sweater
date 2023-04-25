@@ -1,10 +1,10 @@
 class BoringService
-  def self.conn 
+  def conn 
     Faraday.new("http://www.boredapi.com")
   end
 
-  def self.washington_activities
-    response = conn.get("/api/activity/")
+  def get_activity(activity)
+    response = conn.get("/api/activity/?type=#{activity}")
     JSON.parse(response.body, symbolize_names: true)
   end
 end

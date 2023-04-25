@@ -10,6 +10,14 @@ RSpec.describe WeatherFacade do
     city_info = File.read('spec/fixtures/washington_city.json')
     stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{ENV["MAP_QUEST_API_KEY"]}&location=Washington,DC")
         .to_return(status: 200, body: city_info, headers: {})
+
+    washington_activity = File.read('spec/fixtures/washington_activity.json')
+    stub_request(:get, "http://www.boredapi.com/api/activity/?type=%5B%5D")
+        .to_return(status: 200, body: washington_activity, headers: {})
+
+    activity = File.read('spec/fixtures/washington_activity.json')
+    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?key=#{ENV['WEATHER_API_KEY']}&limit=5&q%5B%5D")
+    .to_return(status: 200, body: activity, headers: {})
   end
 
   it "exists" do

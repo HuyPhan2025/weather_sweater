@@ -76,5 +76,15 @@ class WeatherFacade
     end    
   end
 
-  
+  def washington_activities(activity)
+    activities_type = ["relaxation", "recreational", "busywork", "cooking"]
+
+    activity = []
+
+    info = BoringService.washington_activities(activity)
+
+    
+    binding.pry
+
+  end
 end
