@@ -1,0 +1,688 @@
+{
+  "route": {
+      "sessionId": "AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car",
+      "realTime": 17193,
+      "distance": 246.9621,
+      "time": 17188,
+      "formattedTime": "04:46:28",
+      "hasHighway": true,
+      "hasTollRoad": false,
+      "hasBridge": true,
+      "hasSeasonalClosure": false,
+      "hasTunnel": false,
+      "hasFerry": false,
+      "hasUnpaved": true,
+      "hasTimedRestriction": false,
+      "hasCountryCross": false,
+      "legs": [
+          {
+              "index": 0,
+              "hasTollRoad": false,
+              "hasHighway": true,
+              "hasBridge": true,
+              "hasUnpaved": true,
+              "hasTunnel": false,
+              "hasSeasonalClosure": false,
+              "hasFerry": false,
+              "hasCountryCross": false,
+              "hasTimedRestriction": false,
+              "distance": 246.9621,
+              "time": 17193,
+              "formattedTime": "04:46:33",
+              "origIndex": 0,
+              "origNarrative": "",
+              "destIndex": 0,
+              "destNarrative": "",
+              "maneuvers": [
+                  {
+                      "index": 0,
+                      "distance": 9.5499,
+                      "narrative": "Head toward Mountain Wells Rd on East County Rd. Go for 9.5 mi.",
+                      "time": 1383,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:23:03",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.58753,
+                          "lng": -118.36814
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "East County Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.58753,-118.36814|marker-1||39.51814999999998,-118.51138999999996|marker-2||&center=39.55283999999999,-118.43976499999998&defaultMarker=none&zoom=9&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 1,
+                      "distance": 4.0563,
+                      "narrative": "Continue on Stillwater Rd. Go for 4.1 mi.",
+                      "time": 593,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:09:53",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.51814999999998,
+                          "lng": -118.51138999999996
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Stillwater Rd",
+                          "NV-116",
+                          "Lawrence Ln"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.51814999999998,-118.51138999999996|marker-2||39.51905999999998,-118.58368999999993|marker-3||&center=39.51860499999998,-118.54753999999994&defaultMarker=none&zoom=11&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 2,
+                      "distance": 2.2556,
+                      "narrative": "Turn left onto Stillwater Rd (NV-116). Go for 2.3 mi.",
+                      "time": 334,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:05:34",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.51905999999998,
+                          "lng": -118.58368999999993
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "NV-116",
+                          "Stillwater Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.51905999999998,-118.58368999999993|marker-3||39.489819999999995,-118.59386999999994|marker-4||&center=39.50443999999999,-118.58877999999993&defaultMarker=none&zoom=11&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 3,
+                      "distance": 0.0671,
+                      "narrative": "Turn left onto Triple E Ln. Go for 354 ft.",
+                      "time": 12,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:12",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.489819999999995,
+                          "lng": -118.59386999999994
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Triple E Ln"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.489819999999995,-118.59386999999994|marker-4||39.48884999999999,-118.59384999999993|marker-5||&center=39.489335,-118.59385999999994&defaultMarker=none&zoom=16&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 4,
+                      "distance": 1.1166,
+                      "narrative": "Turn right toward Ditch House Ln. Go for 1.1 mi.",
+                      "time": 162,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:42",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.48884999999999,
+                          "lng": -118.59384999999993
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.48884999999999,-118.59384999999993|marker-5||39.48223999999999,-118.61258999999994|marker-6||&center=39.48554499999999,-118.60321999999994&defaultMarker=none&zoom=12&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 5,
+                      "distance": 1.0694,
+                      "narrative": "Continue on Ditch House Ln. Go for 1.1 mi.",
+                      "time": 155,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:35",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.48223999999999,
+                          "lng": -118.61258999999994
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Ditch House Ln"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.48223999999999,-118.61258999999994|marker-6||39.4753,-118.62988999999995|marker-7||&center=39.47877,-118.62123999999994&defaultMarker=none&zoom=12&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 6,
+                      "distance": 2.0859,
+                      "narrative": "Continue on Stuart Rd. Go for 2.1 mi.",
+                      "time": 272,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:04:32",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.4753,
+                          "lng": -118.62988999999995
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Stuart Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.4753,-118.62988999999995|marker-7||39.474990000000005,-118.66902999999996|marker-8||&center=39.475145,-118.64945999999995&defaultMarker=none&zoom=11&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 7,
+                      "distance": 1.1253,
+                      "narrative": "Continue on Stillwater Rd (NV-116). Go for 1.1 mi.",
+                      "time": 170,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:50",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.474990000000005,
+                          "lng": -118.66902999999996
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "NV-116",
+                          "Stillwater Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.474990000000005,-118.66902999999996|marker-8||39.47477,-118.69008999999998|marker-9||&center=39.47488,-118.67955999999998&defaultMarker=none&zoom=12&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 8,
+                      "distance": 4.6317,
+                      "narrative": "Turn right onto Austin Hwy (US-50). Go for 4.6 mi.",
+                      "time": 389,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:06:29",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.47477,
+                          "lng": -118.69008999999998
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-50",
+                          "Austin Hwy",
+                          "The Loneliest Road in America",
+                          "E Williams Ave",
+                          "E US-50"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.47477,-118.69008999999998|marker-9||39.4749,-118.77704999999999|marker-10||&center=39.474835,-118.73356999999999&defaultMarker=none&zoom=10&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 9,
+                      "distance": 32.755,
+                      "narrative": "Turn right onto N Maine St (US-95) toward Winnemucca. Go for 32.8 mi.",
+                      "time": 1855,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:30:55",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.4749,
+                          "lng": -118.77704999999999
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-95",
+                          "N Maine St",
+                          "Veterans Memorial Hwy",
+                          "Lovelock Hwy",
+                          "Lovelock Hbr"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.4749,-118.77704999999999|marker-10||39.94085000000002,-118.7488599999999|marker-11||&center=39.70787500000001,-118.76295499999995&defaultMarker=none&zoom=7&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 10,
+                      "distance": 95.4867,
+                      "narrative": "Take ramp onto I-80 E toward US-95 N. Go for 95.5 mi.",
+                      "time": 4480,
+                      "direction": 3,
+                      "directionName": "Northeast",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:14:40",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.94085000000002,
+                          "lng": -118.7488599999999
+                      },
+                      "turnType": 12,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-80",
+                          "US-95"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=39.94085000000002,-118.7488599999999|marker-11||40.97815999999988,-117.73362999999982|marker-12||&center=40.45950499999995,-118.24124499999985&defaultMarker=none&zoom=6&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 11,
+                      "distance": 0.274,
+                      "narrative": "Take exit 178 toward Winnemucca/NV-289/Downtown East. Go for 0.3 mi.",
+                      "time": 37,
+                      "direction": 8,
+                      "directionName": "East",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:37",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.97815999999988,
+                          "lng": -117.73362999999982
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=40.97815999999988,-117.73362999999982|marker-12||40.97947999999988,-117.72882999999983|marker-13||&center=40.978819999999885,-117.73122999999983&defaultMarker=none&zoom=14&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 12,
+                      "distance": 0.5878,
+                      "narrative": "Turn right onto E 2nd St (I-80-BL) toward Winnemucca/Hospital. Go for 0.6 mi.",
+                      "time": 91,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:31",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.97947999999988,
+                          "lng": -117.72882999999983
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-80-BL",
+                          "E 2nd St",
+                          "NV-289",
+                          "E 3rd St",
+                          "E Winnemucca Blvd",
+                          "W Winnemucca Blvd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=40.97947999999988,-117.72882999999983|marker-13||40.9728199999999,-117.73572999999986|marker-14||&center=40.97614999999989,-117.73227999999985&defaultMarker=none&zoom=13&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 13,
+                      "distance": 31.4737,
+                      "narrative": "Turn right onto Melarkey St (US-95) toward Lake View/Bolse. Go for 31.5 mi.",
+                      "time": 1770,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:29:30",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.9728199999999,
+                          "lng": -117.73572999999986
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-95",
+                          "Melarkey St",
+                          "US Highway 95 N",
+                          "US-95 N",
+                          "US Highway 95"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=40.9728199999999,-117.73572999999986|marker-14||41.395789999999884,-117.78237000000001|marker-15||&center=41.184304999999895,-117.75904999999995&defaultMarker=none&zoom=8&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 14,
+                      "distance": 26.6804,
+                      "narrative": "Turn left onto Denio Highway 140 (NV-140) toward Denio/Lakeview. Go for 26.7 mi.",
+                      "time": 1378,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:22:58",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.395789999999884,
+                          "lng": -117.78237000000001
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "NV-140",
+                          "Denio Highway 140",
+                          "Denio Hwy 140"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.395789999999884,-117.78237000000001|marker-15||41.46426999999986,-118.28322000000001|marker-16||&center=41.430029999999874,-118.03279500000002&defaultMarker=none&zoom=8&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 15,
+                      "distance": 17.4127,
+                      "narrative": "Turn right onto Coyote Point Rd. Go for 17.4 mi.",
+                      "time": 2105,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:35:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.46426999999986,
+                          "lng": -118.28322000000001
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Coyote Point Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.46426999999986,-118.28322000000001|marker-16||41.70174999999984,-118.22840999999998|marker-17||&center=41.583009999999845,-118.255815&defaultMarker=none&zoom=8&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 16,
+                      "distance": 1.0855,
+                      "narrative": "Turn right onto Nine Mile Rd. Go for 1.1 mi.",
+                      "time": 141,
+                      "direction": 8,
+                      "directionName": "East",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:21",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.70174999999984,
+                          "lng": -118.22840999999998
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Nine Mile Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.70174999999984,-118.22840999999998|marker-17||41.701069999999845,-118.20739999999999|marker-18||&center=41.70140999999984,-118.21790499999999&defaultMarker=none&zoom=12&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 17,
+                      "distance": 4.5596,
+                      "narrative": "Turn left onto Kings River Ranch Rd. Go for 4.6 mi.",
+                      "time": 553,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:09:13",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.701069999999845,
+                          "lng": -118.20739999999999
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Kings River Ranch Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.701069999999845,-118.20739999999999|marker-18||41.76707999999983,-118.2066|marker-19||&center=41.734074999999834,-118.207&defaultMarker=none&zoom=10&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 18,
+                      "distance": 1.7224,
+                      "narrative": "Turn right toward Horse Creek Rd. Go for 1.7 mi.",
+                      "time": 219,
+                      "direction": 8,
+                      "directionName": "East",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:39",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.76707999999983,
+                          "lng": -118.2066
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.76707999999983,-118.2066|marker-19||41.770319999999835,-118.17359|marker-20||&center=41.76869999999983,-118.190095&defaultMarker=none&zoom=12&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 19,
+                      "distance": 3.5797,
+                      "narrative": "Turn left onto Horse Creek Rd. Go for 3.6 mi.",
+                      "time": 433,
+                      "direction": 1,
+                      "directionName": "North",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:07:13",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.770319999999835,
+                          "lng": -118.17359
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Horse Creek Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.770319999999835,-118.17359|marker-20||41.81882999999983,-118.19067000000004|marker-21||&center=41.79457499999983,-118.18213000000003&defaultMarker=none&zoom=11&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 20,
+                      "distance": 2.9832,
+                      "narrative": "Turn slightly right toward Horse Creek Rd. Go for 3.0 mi.",
+                      "time": 371,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:06:11",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.81882999999983,
+                          "lng": -118.19067000000004
+                      },
+                      "turnType": 1,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.81882999999983,-118.19067000000004|marker-21||41.85531999999983,-118.21832000000009|marker-22||&center=41.83707499999983,-118.20449500000007&defaultMarker=none&zoom=11&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 21,
+                      "distance": 2.4035,
+                      "narrative": "Turn left onto Horse Creek Rd. Go for 2.4 mi.",
+                      "time": 290,
+                      "direction": 2,
+                      "directionName": "Northwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:04:50",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.85531999999983,
+                          "lng": -118.21832000000009
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Horse Creek Rd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=1v46VpIUDF8Zqzcestb2uHydzFFzAMdX&size=225,160&locations=41.85531999999983,-118.21832000000009|marker-22||41.88071999999988,-118.24702000000015|marker-23||&center=41.86801999999986,-118.23267000000013&defaultMarker=none&zoom=11&session=AJIA5wcAAG4AAAAIAAAAFQAAAKsAAAB42mNYzcDAyMTAwMCekVqUapWcO-17oTSQy_B7mY8px9q5N7W3VKnG3N5zWXv-BrUYBiwAprHUkUcSxGd6ZHeBoeTkS20W9ROxpVCaAQfYxRtlZ8gIZDgzlBQ0cDA1hHI0OHA4wKQdgC5rYJjIoACkWRUOMgIAXiIkUn3AOuU:car"
+                  },
+                  {
+                      "index": 22,
+                      "distance": 0,
+                      "narrative": "Arrive at Horse Creek Rd.",
+                      "time": 0,
+                      "direction": 0,
+                      "directionName": "None",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.88071999999988,
+                          "lng": -118.24702000000015
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": []
+                  }
+              ]
+          }
+      ],
+      "options": {
+          "routeType": "FASTEST",
+          "narrativeType": "text",
+          "enhancedNarrative": false,
+          "walkingSpeed": -1,
+          "highwayEfficiency": 22,
+          "avoids": false,
+          "generalize": -1,
+          "shapeFormat": "raw",
+          "unit": "M",
+          "locale": "en_US",
+          "useTraffic": false,
+          "timeType": 0,
+          "dateType": 0,
+          "doReverseGeocode": true,
+          "manMaps": true,
+          "sideOfStreetDisplay": true
+      },
+      "boundingBox": {
+          "ul": {
+              "lat": 41.88071999999988,
+              "lng": -118.78449999999995
+          },
+          "lr": {
+              "lat": 39.47477,
+              "lng": -117.67908999999987
+          }
+      },
+      "name": "I-80 and US-95",
+      "maxRoutes": "",
+      "locations": [
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "",
+              "adminArea5Type": "City",
+              "adminArea4": "Churchill",
+              "adminArea4Type": "County",
+              "adminArea3": "NV",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A4XAX",
+              "geocodeQuality": "COUNTY",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 39.58088,
+                  "lng": -118.33585
+              },
+              "displayLatLng": {
+                  "lat": 39.58088,
+                  "lng": -118.33585
+              },
+              "mapUrl": ""
+          },
+          {
+              "street": "Horse Creek Rd",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "Orovada",
+              "adminArea5Type": "City",
+              "adminArea4": "Humboldt",
+              "adminArea4Type": "County",
+              "adminArea3": "NV",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "89425",
+              "geocodeQualityCode": "B1AAA",
+              "geocodeQuality": "STREET",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 41.88072,
+                  "lng": -118.24702
+              },
+              "displayLatLng": {
+                  "lat": 41.88072,
+                  "lng": -118.24702
+              },
+              "mapUrl": ""
+          }
+      ],
+      "locationSequence": [
+          0,
+          1
+      ]
+  },
+  "info": {
+      "statuscode": 0,
+      "copyright": {
+          "text": "© 2022 MapQuest, Inc.",
+          "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+          "imageAltText": "© 2022 MapQuest, Inc."
+      },
+      "messages": []
+  }
+}

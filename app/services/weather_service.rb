@@ -6,10 +6,10 @@ class WeatherService
   end
 
   def self.weather_datas(lat_lng)
-    response = conn.get("/v1/forecast.json?") do |faraday|
+    response = conn.get("/v1/forecast.json") do |faraday|
       faraday.params["q"] = lat_lng
-      faraday.params["limit"] = "5"
+      faraday.params["days"] = 5
     end
-    JSON.parse(response.body, symbolize_names: true)
+    parse = JSON.parse(response.body, symbolize_names: true)
   end
 end
