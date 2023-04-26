@@ -96,7 +96,7 @@ RSpec.describe 'User Controller' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
       post '/api/v1/sessions', headers:, params: JSON.generate(@user_params)
-
+      
       expect(response).to be_successful
       parsed_data = JSON.parse(response.body, symbolize_names: true)
   

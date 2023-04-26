@@ -12,7 +12,7 @@ before_action :check_credentials, only: [:create]
   end
   
   def login
-    user = User.find_by(params[:login])
+    user = User.find_by(email: params[:email])
 
     if user.authenticate(user_params[:password])
       render json: UserSerializer.new(user), status: 200
